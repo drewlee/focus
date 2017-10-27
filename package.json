@@ -1,0 +1,22 @@
+{
+  "name": "focus",
+  "version": "0.0.1",
+  "description": "TODO",
+  "main": "index.js",
+  "scripts": {
+    "build": "uglifyjs -cmo dist/focus.min.js -- src/focus.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drewlee/focus.git"
+  },
+  "author": "Andrew A Lee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drewlee/focus/issues"
+  },
+  "homepage": "https://github.com/drewlee/focus#readme",
+  "devDependencies": {
+    "uglify-js": "^3.1.5"
+  }
+}

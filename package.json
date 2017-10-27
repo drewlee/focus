@@ -2,7 +2,7 @@
   "name": "focus",
   "version": "0.0.1",
   "description": "TODO",
-  "main": "index.js",
+  "main": "src/focus.js",
   "scripts": {
     "build": "[ -d dist ] || mkdir dist && uglifyjs -c negate_iife=false -b beautify=false,quote_style=3 -mo dist/focus.min.js -- src/focus.js"
   },

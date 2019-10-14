@@ -6,7 +6,7 @@
   sheet = style.sheet;
   sheet.insertRule('*:focus{outline:3px solid cyan!important}');
 
-  document.addEventListener('focusout', function() {
+  document.addEventListener('focusin', function() {
     console.log(document.activeElement);
   });
 })();
